@@ -1,0 +1,63 @@
+ 
+.country-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input, .filter-select, .clear-button, .show-all-button {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .clear-button, .show-all-button {
+    cursor: pointer;
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+  }
+  
+  .show-all-button {
+    background-color: #6c5ce7;
+    color: #fff;
+  }
+  
+  .show-all-button:hover, .clear-button:hover {
+    background-color: #4b3cad;
+  }
+  
+  .country-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .country-table th, .country-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .country-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
